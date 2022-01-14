@@ -1,0 +1,68 @@
+** user details
+
+
+{
+    userName: "Prakash",
+    Email: "prakash@gmail.com",
+    country: "India",
+    DOJ: "21.09.2020" 
+},
+{
+    userName: "vignesh",
+    Email: "vignesh@gmail.com",
+    country: "India",
+    DOJ: "23.10.2020" 
+},
+{
+    userName: "Anand",
+    Email: "Anand@gmail.com",
+    country: "Srilanka",
+    DOJ: "11.09.2019" 
+},
+{
+    userName: "Guru",
+    Email: "Guru@gmail.com",
+    country: "Dhubai",
+    DOJ: "05.05.2021", 
+},
+{
+    userName: "Kumar",
+    Email: "Kumar@gmail.com",
+    country: "India",
+    DOJ: "21.09.2020",
+}
+
+
+
+** movie details
+
+{
+    title: "Iron Man",
+    year: "2008",
+    genre: "action",
+    budget: "$120M"
+},
+{
+    title: "Avengers",
+    year: "2012",
+    genre: "action",
+    budget: "$190M"
+},
+{
+    title: "Bat Man",
+    year: "2015",
+    genre: "action",
+    budget: "$110M"
+},
+{
+    title: "Hulk",
+    year: "2009",
+    genre: "action",
+    budget: "$80M"
+},
+{
+    title: "Black Panther",
+    year: "2018",
+    genre: "action",
+    budget: "$240M"
+},
