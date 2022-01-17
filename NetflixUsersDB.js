@@ -10,7 +10,11 @@ const initialSchema = () => {
         DOJ: [{
             sub_date: { type: Date },
             balance_days: { type: Number }
-        }]
+        }],
+        history: {
+            noOfMovies: { type: Number, required: false },
+            totalWatchHR: { type: String, required: false }
+        }
     }, {
         timestamps: {
             createdAt: "created_at",
