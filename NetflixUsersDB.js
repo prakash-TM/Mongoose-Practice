@@ -7,10 +7,17 @@ const initialSchema = () => {
         userName: { type: String, required: true },
         Email: { type: String },
         country: { type: String },
-        DOJ: { type: String }
-
+        DOJ: [{
+            sub_date: { type: Date },
+            balance_days: { type: Number }
+        }]
+    }, {
+        timestamps: {
+            createdAt: "created_at",
+            updatedAt: "modified_at",
+        },
+        strict: true,
     })
-
 
     const userModel = Mongoose.model("Users", userSchema)
 
